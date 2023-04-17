@@ -10,16 +10,27 @@
   text-decoration: none;
 }
 .title {
-  padding: 20px;
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  padding: 40px 0px 10px 0px;
 }
 .title,
-.description {
-  text-align: center;
+.description,
+.pronouciation {
+  text-align: inherit;
+  width: 50%;
 }
-.description {
+.description,
+.pronouciation
+{
   line-height: 1.5;
   font-size: 1.5rem;
+  font-family: 'Times New Roman', Times;
+  font-variant: initial;
+}
+.pronouciation {
+  font-size: 1.8rem;
+  font-style: italic;
+  color: rgb(95, 85, 62);
 }
