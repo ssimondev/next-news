@@ -13,12 +13,12 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
-  padding: 40px 0px 10px 0px;
+  padding-top: 60px;
 }
 .title,
 .description,
 .pronouciation {
-  text-align: inherit;
+  text-align: initial;
   width: 50%;
 }
 .description,
@@ -33,4 +33,25 @@
   font-size: 1.8rem;
   font-style: italic;
   color: rgb(95, 85, 62);
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+    padding-top: 30px;
+  }
+  .title,
+  .description,
+  .pronouciation {
+    text-align: inherit;
+    width: 87.5%;
+  }
+  .description,
+  .pronouciation
+  {
+    font-size: 1.35rem;
+  }
+  .pronouciation {
+    font-size: 1.8rem;
+  }
 }
